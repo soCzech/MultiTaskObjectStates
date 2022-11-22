@@ -1,5 +1,11 @@
 # Multi-Task Learning of Object State Changes from Uncurated Videos
 
+### [[Project Website :dart:]](https://soczech.github.io/multi-task-object-states/)&nbsp;&nbsp;&nbsp;[[Paper :page_with_curl:]](https://arxiv.org/abs/)&nbsp;&nbsp;&nbsp;[Code :octocat:]
+
+This repository contrains code for the paper [Multi-Task Learning of Object State Changes from Uncurated Videos](https://arxiv.org/abs/).
+
+<img src="https://soczech.github.io/assets/img/MultiTaskObjectStates.svg" style="width:100%">
+
 
 ## Train the model on ChangeIt dataset
 1. **Setup the environment**
@@ -76,7 +82,20 @@ state_pred, action_pred = torch.softmax(predictions["state"], -1), torch.softmax
 ```
 
 
+## Citation
+```bibtex
+@article{soucek2022multitask,
+    title={Multi-Task Learning of Object State Changes from Uncurated Videos},
+    author={Sou\v{c}ek, Tom\'{a}\v{s} and Alayrac, Jean-Baptiste and Miech, Antoine and Laptev, Ivan and Sivic, Josef},
+    month = {November},
+    year = {2022}
+}
+```
+
+
 ## Acknowledgements
+This work was partly supported by the European Regional Development Fund under the project IMPACT (reg. no. CZ.02.1.01/0.0/0.0/15_003/0000468), the Ministry of Education, Youth and Sports of the Czech Republic through the e-INFRA CZ (ID:90140), the French government under management of Agence Nationale de la Recherche as part of the “Investissements d’avenir” program, reference ANR19-P3IA-0001 (PRAIRIE 3IA Institute), and Louis Vuitton ENS Chair on Artificial Intelligence.
+
 The ordering constraint code has been adapted from the CVPR 2022 paper 
-[Look for the Change: Learning Object States and State-Modifying Actions from Untrimmed Web Videos](https://arxiv.org/abs/2203.11637)
-available on [github.com](https://github.com/soCzech/LookForTheChange).
+[Look for the Change: Learning Object States and State-Modifying Actions from Untrimmed Web Videos](https://soczech.github.io/look-for-the-change/)
+available on [GitHub](https://github.com/soCzech/LookForTheChange).
