@@ -1,8 +1,8 @@
 # Multi-Task Learning of Object State Changes from Uncurated Videos
 
-### [[Project Website :dart:]](https://soczech.github.io/multi-task-object-states/)&nbsp;&nbsp;&nbsp;[[Paper :page_with_curl:]](https://arxiv.org/abs/)&nbsp;&nbsp;&nbsp;[Code :octocat:]
+### [[Project Website :dart:]](https://soczech.github.io/multi-task-object-states/)&nbsp;&nbsp;&nbsp;[[Paper :page_with_curl:]](https://arxiv.org/abs/2211.13500)&nbsp;&nbsp;&nbsp;[Code :octocat:]
 
-This repository contrains code for the paper [Multi-Task Learning of Object State Changes from Uncurated Videos](https://arxiv.org/abs/).
+This repository contrains code for the paper [Multi-Task Learning of Object State Changes from Uncurated Videos](https://arxiv.org/abs/2211.13500).
 
 <img src="https://soczech.github.io/assets/img/MultiTaskObjectStates.svg" style="width:100%">
 
