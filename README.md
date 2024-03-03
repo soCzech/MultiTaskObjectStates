@@ -1,8 +1,8 @@
-# Multi-Task Learning of Object State Changes from Uncurated Videos
+# Multi-Task Learning of Object States and State-Modifying Actions from Web Videos
 
-### [[Project Website :dart:]](https://soczech.github.io/multi-task-object-states/)&nbsp;&nbsp;&nbsp;[[Paper :page_with_curl:]](https://arxiv.org/abs/2211.13500)&nbsp;&nbsp;&nbsp;[Code :octocat:]
+### [[Project Website :dart:]](https://soczech.github.io/multi-task-object-states/)&nbsp;&nbsp;&nbsp;[[Paper (Arxiv) :page_with_curl:]](https://arxiv.org/abs/2211.13500)&nbsp;&nbsp;&nbsp;[[Paper (TPAMI) :page_with_curl:]](https://ieeexplore.ieee.org/abstract/document/10420504)&nbsp;&nbsp;&nbsp;[Code :octocat:]
 
-This repository contrains code for the paper [Multi-Task Learning of Object State Changes from Uncurated Videos](https://arxiv.org/abs/2211.13500).
+This repository contrains code for the TPAMI paper [Multi-Task Learning of Object States and State-Modifying Actions from Web Videos](https://ieeexplore.ieee.org/abstract/document/10420504).
 
 <img src="https://soczech.github.io/assets/img/MultiTaskObjectStates.svg" style="width:100%">
 
@@ -84,11 +84,12 @@ state_pred, action_pred = torch.softmax(predictions["state"], -1), torch.softmax
 
 ## Citation
 ```bibtex
-@article{soucek2022multitask,
-    title={Multi-Task Learning of Object State Changes from Uncurated Videos},
+@article{soucek2024multitask,
+    title={Multi-Task Learning of Object States and State-Modifying Actions from Web Videos},
     author={Sou\v{c}ek, Tom\'{a}\v{s} and Alayrac, Jean-Baptiste and Miech, Antoine and Laptev, Ivan and Sivic, Josef},
-    month = {November},
-    year = {2022}
+    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    year={2024},
+    doi={10.1109/TPAMI.2024.3362288}
 }
 ```
 
